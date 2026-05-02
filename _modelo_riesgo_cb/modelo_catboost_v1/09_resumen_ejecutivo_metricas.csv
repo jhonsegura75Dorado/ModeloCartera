@@ -1,0 +1,10 @@
+﻿indicador,valor
+roc_auc_test,0.8099928993654656
+pr_auc_test,0.20472044831153272
+ks_test,0.4938724237586327
+brier_score_test,0.012585366905674857
+precision_top500_test,0.308
+recall_top500_test,0.3031496062992126
+umbral_f2_valid,0.05927866494280263
+variables_usadas,37.0
+variables_categoricas,10.0

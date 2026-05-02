@@ -1,0 +1,9 @@
+﻿metrica,valor
+filas,227168
+cb_unicos,20130
+periodos,13
+eventos_positivos,3474
+tasa_evento,0.015292646851669249
+variables_predictoras,37
+estado_calidad,OK_PARA_ENTRENAR
+observacion,Dataset listo para entrenar Modelo V1.

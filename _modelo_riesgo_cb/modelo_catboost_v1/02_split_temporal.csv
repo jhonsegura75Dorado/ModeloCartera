@@ -1,0 +1,2 @@
+﻿train_periodos,valid_periodos,test_periodos,train_filas,valid_filas,test_filas,train_eventos,valid_eventos,test_eventos
+2025-01-31 00:00:00 -> 2025-09-30 00:00:00,2025-10-31 00:00:00 -> 2025-11-30 00:00:00,2025-12-31 00:00:00 -> 2026-01-31 00:00:00,156342,35498,35328,2485,481,508
