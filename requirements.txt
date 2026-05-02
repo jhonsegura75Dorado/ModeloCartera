@@ -1,0 +1,26 @@
+# ============================================================
+# Requirements - Modelo Riesgo CB / No Compensacion
+# ============================================================
+# Instalacion recomendada:
+#   python -m pip install --upgrade pip
+#   pip install -r requirements.txt
+
+# Base de datos y procesamiento
+pandas>=2.0.0
+numpy>=1.24.0
+pyodbc>=5.0.0
+pyarrow>=14.0.0
+openpyxl>=3.1.0
+
+# Machine Learning
+catboost>=1.2.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualizacion y tablero
+streamlit>=1.32.0
+plotly>=5.18.0
+matplotlib>=3.7.0
+
+# Utilidades recomendadas
+python-dateutil>=2.8.2
