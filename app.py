@@ -377,17 +377,40 @@ def style_priority(df: pd.DataFrame) -> pd.io.formats.style.Styler:
         return ""
 
     styler = df.style.format(fmt)
+
+    # Compatibilidad Pandas 2.x / 3.x:
+    # En Pandas 3 se eliminó Styler.applymap; el reemplazo es Styler.map.
+    def aplicar_estilo_celda(styler_obj, funcion, subset):
+        if hasattr(styler_obj, "map"):
+            return styler_obj.map(funcion, subset=subset)
+        return styler_obj.applymap(funcion, subset=subset)
+
     if "nivel_alerta_final" in df.columns:
-        styler = styler.applymap(color_level, subset=["nivel_alerta_final"])
+        styler = aplicar_estilo_celda(
+            styler,
+            color_level,
+            subset=["nivel_alerta_final"],
+        )
+
     if "flag_nuevo_top500_preventivo" in df.columns:
-        styler = styler.applymap(
-            lambda x: (
+
+        def color_nuevo_top500(x):
+            try:
+                flag = int(x or 0)
+            except Exception:
+                flag = 0
+            return (
                 f"background-color: {PASTEL['purple']}; color: #553C9A; font-weight: 700;"
-                if int(x or 0) == 1
+                if flag == 1
                 else ""
-            ),
+            )
+
+        styler = aplicar_estilo_celda(
+            styler,
+            color_nuevo_top500,
             subset=["flag_nuevo_top500_preventivo"],
         )
+
     return styler
 
 
