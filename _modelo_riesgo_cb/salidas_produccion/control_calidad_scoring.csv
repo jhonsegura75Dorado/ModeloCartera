@@ -1,12 +1,12 @@
 ﻿control,valor
-filas_scoring,40820.0
-cb_unicos,40820.0
+filas_scoring,40848.0
+cb_unicos,40848.0
 probabilidad_nula,0.0
 dias_sin_transacciones_nulos,0.0
-consumo_cupo_punto_negativos,3916.0
+consumo_cupo_punto_negativos,3121.0
 consumo_cupo_visual_negativos,0.0
-saldo_expuesto_total,183192340355.32004
-segmento_RECUPERACION,23363.0
+saldo_expuesto_total,199342458705.46002
+segmento_RECUPERACION,23391.0
 segmento_PREVENTIVO,17456.0
 segmento_OTRO,1.0
 nuevos_top500_preventivo,0.0

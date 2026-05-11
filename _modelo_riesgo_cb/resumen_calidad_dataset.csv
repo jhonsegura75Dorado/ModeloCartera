@@ -1,8 +1,8 @@
 ﻿tabla,filas,cb_unicos,eventos_90d
-base_actual,40819,40819,
-trx_mensual,297929,20661,
-snapshots_saldos,40819,40819,
-panel_historico,630025,40820,
-dataset_90d,227168,20130,3474.0
-dataset_modelo_limpio,227168,20130,3474.0
-alertas_actuales,40819,40819,
+base_actual,40847,40847,
+trx_mensual,298709,20689,
+snapshots_saldos,81694,40847,
+panel_historico,630053,40848,
+dataset_90d,227168,20130,3484.0
+dataset_modelo_limpio,227168,20130,3484.0
+alertas_actuales,40847,40847,

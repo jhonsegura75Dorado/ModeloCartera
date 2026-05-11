@@ -2,8 +2,8 @@
 filas,227168
 columnas,41
 cb_unicos,20130
-target_positivos,3474
-target_tasa,0.015292646851669249
+target_positivos,3484
+target_tasa,0.015336667136216368
 variables_modelo,37
 duplicados_codigo_fecha,0
 variables_fuga_en_features,0
